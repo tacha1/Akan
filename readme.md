@@ -5,13 +5,13 @@ Akan's name projects
 Uwamariya Rosine
 
 ## Description
-Akan's project to describe the names acording to birth year
+Akan's project to describe the names according to birth year and gender
 
 ## Setup/Installation Requirements
 * go to code editor
 * open your terminal
 * cd Documents/Akan
-* git clone https://tacha1.github.io/Akan/
+* git clone https://tacha1.github.io/akan/
 * code .
 
 ## Technology used
