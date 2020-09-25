@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"href="akan.css">
+    <script src="java.js" type="text/javascript"></script>
+    <title>Akan Names</title>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Akan Name Project</h1>
+    </div>
+    <div class="container">
+
+        <p class="paragraph">The Akan people of Ghana frequently name their children after the day of the week they
+            were born and the order in which they were born. These "day names" have further meanings concerning the
+            soul and character of the person. Middle names have considerably more variety and can refer to their birth
+            order, twin status, or an ancestor's middle name.</p>
+
+        <p id="paragraph">Please enter ur birthdate and Gender to see ur corresponding Akan Name</p><br>
+        <div class="row">
+            <div class="col-dm-6">
+                <div class="bgcolor">
+                    <form>
+
+                        <div class="row dayofbirth" clas="col-dm-6">
+                            <label for="inputbirthday">Enter your birthday</label>
+                            <div class="col-dm-10">
+                                <input type="date" class="form-control" id="day">
+                            </div>
+                        </div>
+                        <div class="row selectgender">
+                            <label for="gender">Gender:<br></label>
+                            <label class="radio-inline"><input type="radio" value="female" name="optradio" id="gender"
+                                    checked>Female</label>
+                            <label class="radio-inline"><input type="radio" value="male" name="optradio" id="gender">Male</label>
+                        </div>
+                        <div class="submit">
+                            <button type="button" onClick="weekdays()">submit</button>
+                            <p><span>The Akan name is:</span> <label id="names"></label></p>
+                            <p><span>Day of the week you were born is:</span> <label id="display"></label></p>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>@Rosine's Project</footer>
+</html>
