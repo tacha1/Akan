@@ -1,0 +1,47 @@
+*{
+    background-image: url("desert.jpg");
+    background-color: whitesmoke;
+    background-size: cover;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+}
+.jumbotron{
+    text-align: center;
+}
+.paragraph{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    color: solid black;
+}
+#paragraph{
+    margin-top: auto;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.dayofbirth{
+    margin: 35px;
+}
+.selectgender{
+    margin: 35px;
+}
+.submit{
+    margin: 35px;
+    text-align:center;
+}
+.bgcolor{
+    background-color: rgb(202, 188, 175);
+}
+.row{
+    margin-left: 200px;
+    background-color: whitesmoke;
+}
+.h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    box-shadow: whitesmoke;
+    padding-top: 5px;
+    margin-top:10px ;
+}
