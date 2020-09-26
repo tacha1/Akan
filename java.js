@@ -22,6 +22,6 @@ function weekdays() {
         console.log(femaleNames[Math.round(birthDay)]);
         document.getElementById("names").innerHTML = femaleNames[Math.round(birthDay)];
     } else {
-        console.log("invalid data");
+        alert("invalid data");
     }
 }
