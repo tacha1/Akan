@@ -13,15 +13,12 @@ function weekdays() {
     console.log(gender);
 
     if (gender == "male") {
-
         console.log(maleNames[Math.round(birthDay)]);
         document.getElementById("names").innerHTML = maleNames[Math.round(birthDay)];
 
-    } else if (gender == "female") {
-
+    }
+     else {
         console.log(femaleNames[Math.round(birthDay)]);
         document.getElementById("names").innerHTML = femaleNames[Math.round(birthDay)];
-    } else {
-        alert("invalid data");
-    }
+    } 
 }
